@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site Html</title>
+</head>
+<body>
+   <h1 id="Ínicio"> Minha primeira pagina Html DIO <small><i>(Em Construção)</i></small></h1> 
+    <hr>
+    <h2>Desafio html DIO</h2>
+    <p>Foi solicitado que nós, alunos do bootcamp, criássemos uma página HTML com base em cada aula realizada até o momento. 
+        A proposta é destacar os principais assuntos abordados, mostrar o que aprendemos e aplicar esse conhecimento na prática.
+    </p>
+
+    <h2>O que é Html?</h2>
+    <p>Html é a linguagem usada para criar páginas na Web. Ela define a estrutura do conteúdo, tais como títulos, imagens e links, usando as chamadas "tags", 
+        que o navegador interpreta para exibir o site corretamente. Ou seja, é a base - ou o "esqueleto" - de qualqwuer página da internet.</p>
+
+        <h2>O que são as tags?</h2>
+        <p>As tags são elementos fundamentais do HTML - elas funcionam como comandos que dizem ao navegador como exibir o conteúdo da página.</p>
+        <p>Cada <strong>tag</strong> é inscrita entre sinais de <i>menor que e maior que</i>, por exemplo: (<i>< , ></i>). A grande maioria delas vem em pares sendo uma a <strong>tag de abertura</strong> (<strong><</strong>) e a <strong>tag de fechamento</strong>(<strong>></strong>). Como por exemplo:</p>
+        <img src="https://miro.medium.com/v2/resize:fit:1400/1*ln59teCv0K1iyiVwLQSF_w.png" width="220">
+
+        <ul>
+            <li>< p > → Esta é uma tag de abertura</li>
+            <li>< /p> → Esta é uma tag de fechamento</li>
+            <li> Ficando os dois completos desta forma: < p > Este é um paragrafo < /p>.</li>
+        </ul>
+        <p>Exitem também as tags que não precisam de fechamento, como < img > - para imagens ou < br > para quebra de linhas.</p>
+
+        <p>Há muitas outras tags que podem ser usadas, mas por enquanto vamos focar somente nestas.</p>
+
+
+    <h2>O que são os atributos das tags?</h2>
+    
+    <p>Os atributos das tags HTML são informações adicionais que você pode incluir dentro da tag para modificar seu comportamento ou aparência. 
+        Eles sempre aparecem na tag de abertura, e seguem o formato, por exemplo:</p>
+
+        <img src="https://blog.betrybe.com/wp-content/uploads/2021/01/image-32-768x333.png" width="300">
+
+        <ul>
+            <li>src → define o caminho da imagem.</li>
+            <li>alt→ texto alternativo, exibido se a imagem não carregar.</li>
+            <li>width → define a largura da imagem.</li>
+        </ul>
+
+        <h1>Textos</h1>
+
+        <p>Os textos em HTML são o conteúdo visível que aparece para o usuário em uma página web. 
+            Eles são inseridos entre as tags e podem ser organizados de várias formas, dependendo da função que você quer dar a cada parte do conteúdo.</p>
+            <p>Por exemplo existem os:</p>
+
+            <h4>Paragrafos</h4>
+            <p>Usamos a tag para criar blocos de texto corrido.</p>
+            <h4>títulos</h4>
+            <p>Existem seis níveis de títulos, de < h1> (mais importante) até < h6> (menos importante).</p>
+            <h4>Negrito e Italico</h4>
+            <p>Para destacar partes do texto</p>
+            <h4>Quebra de linhas</h4>
+            <p>Para pular uma linha sem iniciar um novo parágrafo</p>
+            <h4>Listas</h4>
+            <p>Para organizar texto em forma de lista:</p>
+            <h4>Links</h4>
+            <p>Para transformar texto em um link clicável:</p>
+
+            <p>Existem muitos outros.</p>
+
+        <h1>Listas Ordenadas e não Ordenadas</h1>
+            <h2>Listas Ordenadas</h2>
+            <p>São listas em que os itens aparecem em ordem numérica ou alfabética. Usamos quando a sequência importa, 
+                como em instruções passo a passo, rankings ou cronogramas.</p>
+                <p>Por exemplo:</p>
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaOMfGnR3Z8pMIBbqwzoJ1O1fIMrueUhT-uIXwWEwsv4R00RlejI2ACQ3LVv8V9mpF7u-mrNi1FXF97V5Jarav75f2NCUK3UNTn1Z8ZLArk4Tt0BLLLnSP4fLX190k6yUadvHa4YKpX9QC/w1200-h630-p-k-no-nu/lista-ordenada-html.jpg" width="300">
+
+            <h2>Listas não Ordenadas</h2>
+            <p>São listas com marcadores (bolinhas), onde a ordem dos itens não importa. Usamos para agrupar ideias, opções ou elementos soltos.</p>
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiao8HAZwbphSffJiuptan5If_YaBUa0ePwSLXdsCBpZA6OnYl7kjgVxwa_JNf79_ZxY1tOWSSX1D9M-vvMXZ_YNLLlkcOQU67I-Dwt3iOQxnvsN_PAzBC0sJJ9j8i8ise42wXpLNg2O2s/s1600/Captura+de+tela+de+2016-04-12+21%253A36%253A06.png" width="300">
+
+    <h1>E os Links?</h1> 
+    <p>Links (ou hiperlinks) são elementos que permitem ao usuário navegar de uma página para outra, abrir documentos, acessar redes sociais, enviar e-mails, entre outras ações. No HTML, usamos a tag < a> para criar links.</p>   
+
+
+<h1>Conclusão</h1>
+<p>Esta é, por enquanto, apenas uma pequena parte do que ainda iremos desenvolver, acrescentar e aprimorar em nossa página inicial em HTML. 
+    <br>Sei que ainda não representa nem o início do que ela pode — ou deve — se tornar, mas gostaria de deixar registrado como tudo começou.</p> <i>(Continua...)</i> <a href="#Ínicio">Início</a>
+
+     
+</body>
+</html>
